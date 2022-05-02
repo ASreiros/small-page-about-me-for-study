@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(187, 247, 227);
+}
+
+h1{
+    color: #CCD5AE;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.top{
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: aqua;
+}
+
+.top>img{
+    width: 30vw;
+}
+
+.middle{
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
